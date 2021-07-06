@@ -17,7 +17,13 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "angular-tradingview-widget": [
+        "dist/angular-tradingview-widget/angular-tradingview-widget",
+        "dist/angular-tradingview-widget"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
