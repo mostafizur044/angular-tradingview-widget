@@ -1,6 +1,22 @@
 {
   "name": "angular-tradingview-widget",
   "version": "0.0.0",
+  "description": "Angular component for rendering the TradingView Advanced Real-Time Chart Widget",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mostafizur044/angular-tradingview-widget"
+  },
+  "author": "Md Mostafizur Rahman",
+  "bugs": {
+    "url": "https://github.com/mostafizur044/angular-tradingview-widget/issues"
+  },
+  "license": "MIT",
+  "keywords": [
+    "tradingview",
+    "tradingview widget",
+    "tradingview widget angular",
+    "angular tradingview"
+  ],
   "scripts": {
     "ng": "ng",
     "start": "ng build --project=angular-tradingview-widget & ng serve",
