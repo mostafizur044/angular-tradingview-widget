@@ -2,7 +2,7 @@
 React component for rendering the [TradingView Advanced Real-Time Chart Widget](https://www.tradingview.com/widget/advanced-chart/).
 
 ## Install
-`npm install --save react-tradingview-widget`
+`npm install --save angular-tradingview-widget`
 
 ## Usage
 ### Module
@@ -126,3 +126,6 @@ export class AppModule { }
 
 
 All given props are passed on to the widget config. See [this page](https://www.tradingview.com/widget/advanced-chart/) for the TradingView Advanced Real-Time Chart API.
+
+** Note
+ Inspired by https://github.com/rafaelklaessen/react-tradingview-widget
