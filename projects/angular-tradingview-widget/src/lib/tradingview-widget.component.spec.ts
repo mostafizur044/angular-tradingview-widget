@@ -5,12 +5,12 @@ import { TradingviewWidgetComponent } from './tradingview-widget.component';
 describe('TradingviewWidgetComponent', () => {
   let component: TradingviewWidgetComponent;
   let fixture: ComponentFixture<TradingviewWidgetComponent>;
-  let windowMock: Window = <any>{ };
+  // let windowMock: Window = <any>{ };
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [ TradingviewWidgetComponent ],
-      providers: [ { provide: Window, useFactory: (() => { return windowMock; }) } ],
+      // providers: [ { provide: Window, useFactory: (() => { return windowMock; }) } ],
     })
     .compileComponents();
   }));
@@ -19,7 +19,7 @@ describe('TradingviewWidgetComponent', () => {
     
     fixture = TestBed.createComponent(TradingviewWidgetComponent);
     component = fixture.componentInstance;
-    windowMock = TestBed.inject(Window);
+    // windowMock = TestBed.inject(Window);
 
     fixture.detectChanges();
   });

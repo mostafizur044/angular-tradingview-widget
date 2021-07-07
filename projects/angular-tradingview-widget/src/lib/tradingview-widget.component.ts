@@ -49,7 +49,7 @@ export class TradingviewWidgetComponent implements OnInit {
     return this._widgetConfig || this._defaultConfig;
   }
 
-  constructor(private window: Window) { }
+  constructor() { }
 
   ngOnInit(): void {
     this.appendScript(this.initWidget.bind(this));

@@ -10,8 +10,6 @@ import { TradingviewWidgetComponent } from './tradingview-widget.component';
     CommonModule
   ],
   exports: [TradingviewWidgetComponent],
-  providers: [
-    { provide: Window, useValue: window }
-  ]
+  providers: []
 })
 export class TradingviewWidgetModule {}
