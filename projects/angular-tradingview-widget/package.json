@@ -1,6 +1,6 @@
 {
   "name": "angular-tradingview-widget",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Angular component for rendering the TradingView Advanced Real-Time Chart Widget",
   "repository": {
     "type": "git",

@@ -1,5 +1,5 @@
 # angular-tradingview-widget
-React component for rendering the [TradingView Advanced Real-Time Chart Widget](https://www.tradingview.com/widget/advanced-chart/).
+Angular component for rendering the [TradingView Advanced Real-Time Chart Widget](https://www.tradingview.com/widget/advanced-chart/).
 
 ## Install
 `npm install --save angular-tradingview-widget`
