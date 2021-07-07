@@ -127,5 +127,12 @@ export class AppModule { }
 
 All given props are passed on to the widget config. See [this page](https://www.tradingview.com/widget/advanced-chart/) for the TradingView Advanced Real-Time Chart API.
 
+<img width="988" alt="Screen Shot 2021-04-12 at 3 22 54" src="https://user-images.githubusercontent.com/2074884/114363857-6fbf0780-9b3e-11eb-8e93-a4d550335f00.png">
+
+## License
+
+MIT © [hugoduar](https://github.com/hugoduar)
+
+
 ** Note
  Inspired by https://github.com/rafaelklaessen/react-tradingview-widget
