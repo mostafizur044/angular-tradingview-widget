@@ -88,7 +88,7 @@ export interface ITradingViewWidget {
     timezone?: string;
     toolbar_bg?: string;
     watchlist?: string[];
-    widgetType?: string;
+    widgetType: string;
     width?: number;
     withdateranges?: boolean;
 }

@@ -1,6 +1,6 @@
 {
   "name": "angular-tradingview-widget",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "Angular component for rendering the TradingView Advanced Real-Time Chart Widget",
   "repository": {
     "type": "git",
@@ -18,8 +18,10 @@
     "angular tradingview"
   ],
   "peerDependencies": {
-    "@angular/common": "^9.0.7",
-    "@angular/core": "^9.0.7",
-    "tslib": "^1.10.0"
+    "@angular/common": "^14.1.0",
+    "@angular/core": "^14.1.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
   }
 }

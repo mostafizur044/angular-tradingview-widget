@@ -12,7 +12,7 @@ declare const TradingView: any;
 })
 export class TradingviewWidgetComponent implements OnInit {
 
-  private _widgetConfig: ITradingViewWidget;
+  private _widgetConfig!: ITradingViewWidget;
   private _defaultConfig: ITradingViewWidget = {
     symbol: 'NASDAQ:AAPL',
     allow_symbol_change: true,
@@ -83,10 +83,13 @@ export class TradingviewWidgetComponent implements OnInit {
       };
     }
     /* global TradingView */
-    new TradingView[widgetType](config);
+    if(!!widgetType)
+      new TradingView[widgetType](config);
+    else 
+      console.error(`Can not create "TradingView", because "widgetType" is missing`)
   };
 
-  appendScript (onload) {
+  appendScript (onload : (() => any)) {
     if (!this.canUseDOM()) {
       onload();
       return;
@@ -120,8 +123,8 @@ export class TradingviewWidgetComponent implements OnInit {
     return this.getScriptElement() !== null;
   }
 
-  updateOnloadListener (onload) {
-    const script = this.getScriptElement();
+  updateOnloadListener (onload: (() => any)) {
+    const script = this.getScriptElement() || {} as any;
     const oldOnload = script.onload.bind(this);
     return script.onload = () => {
       oldOnload();
